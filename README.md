@@ -149,7 +149,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Manoj Jahgirdar** - *[manojjahgirdat](https://github.com/manojjahgirdar)*
+* **Manoj Jahgirdar** - *[manojjahgirdar](https://github.com/manojjahgirdar)*
 * **Manjula Hosurmath** - *[]()*
 * **Rahul Reddy Ravipally** - *[RahulReddyRavipally](https://github.com/RahulReddyRavipally)*
 * **Sharath Kumar R K** - *[]()*
