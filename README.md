@@ -41,7 +41,13 @@ We propose a way of eliminating panic by using control towers powered by governm
 
 ## The architecture
 
-![Video transcription/translation app](/docs/img/architecture-diagram.png)
+### Detailed end to end Architecture
+
+![Architecture](/docs/img/architecture.png)
+
+### Architecture
+
+![Detailed](/docs/img/architecture-diagram.png)
 
 1. The user navigates to the site and uploads a video file.
 2. Watson Speech to Text processes the audio and extracts the text.
