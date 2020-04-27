@@ -8,7 +8,7 @@
 
 [Project website](https://github.com/manojjahgirdar/automated-order-processing-during-pandemics)
 
-### Offline Approach using Watson Knowledge Studio
+## Offline Approach using Watson Knowledge Studio
 
 - The conversation between the User and Automatic call responder(Bot) will be recorded.
 
@@ -20,7 +20,7 @@ Advantage :
 
 Since majority of Indian population (specially elderly population and rural population) do not have knowledge about digital services, they will not be able to use the available online portals to order daily essentials & medicines. Hence this approach will not only address this limitation but also solve the issue of hectic manual work, since the backend is automated.
 
-### Online Approach with Watson Assistant
+## Online Approach with Watson Assistant
 
 - Provide a chatbot on the authorized portal where the citizen can interact with Watson.
 
