@@ -43,7 +43,7 @@ We propose a way of eliminating panic by using control towers powered by governm
 
 ### Detailed end to end Architecture
 
-![Architecture](/docs/img/architecture.png)
+![Architecture](/docs/img/architecture.jpg)
 
 ### Architecture
 
