@@ -33,7 +33,7 @@ Schools and teachers can continue to engage with their students through virtual 
 
 ### The idea
 
-We propose a way of eliminating panic by using control towers powered by government entities which can cater to online and offline mode of communication with the residents of different locations. This method will help the government to take control of the situation, maintain adequate supply & price as per the demand. Government can have a bird's view of the situation and can release updates via news through our channel to provide assurance which can go a long way in bringing the stability to the system.
+We propose a way of eliminating panic by using control towers powered by government entities which can cater to online and offline mode of taking orders from the residents of different locations. This method will help the government to take control of the situation, maintain adequate supply & price as per the demand. Government can have a hawkeye view of the situation and can release updates via news through our channel to provide assurance which can go a long way in bringing the stability to the system.
 
 ## Demo video
 
