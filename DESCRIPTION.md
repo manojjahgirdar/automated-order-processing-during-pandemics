@@ -48,7 +48,7 @@ In the above methods, the backend system is automated and equipped to handle the
 
 - Backend is efficient and fast because of automation & caters to offline & online mode of orders.
 
--This will solve the problem of addressing panic among residents and ensure continuous availability of the products.
+- This will solve the problem of addressing panic among residents and ensure continuous availability of the products.
 
--The control tower will enable governments to guide and regulate the implementation of its directives to a great extent.
+- The control tower will enable governments to guide and regulate the implementation of its directives to a great extent.
 
