@@ -1,10 +1,8 @@
-# Automated Order Processing During Pandemics
+# AI Powered Order Processing During Pandemics
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 A basic GitHub repository example for Call for Code submissions and those projects that join the Code and Response initiative. Not all sections or files are required. You can make this as simple or as in-depth as you need.
-
-*Read this in other languages: [English](README.md), [한국어](README.ko.md), [português](README.pt_br.md).*
 
 ## Contents
 
@@ -27,7 +25,7 @@ A basic GitHub repository example for Call for Code submissions and those projec
 
 ### What's the problem?
 
-Part of the World Health Organization's guidance on limiting further spread of COVID-19 is to practice social distancing. As a result, schools in most affected areas are taking precautionary measures by closing their facilities. With school-aged children at home for an indeterminate amount of time,  keeping them engaged, entertained, and on top of their education is important.
+How do we stop panic amongst people of hoarding essentials during lockdown? How do we maintain social distancing while procuring essentials?
 
 ### How can technology help?
 
@@ -35,7 +33,7 @@ Schools and teachers can continue to engage with their students through virtual 
 
 ### The idea
 
-It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
+We propose a way of eliminating panic by using control towers powered by government entities which can cater to online and offline mode of communication with the residents of different locations. This method will help the government to take control of the situation, maintain adequate supply & price as per the demand. Government can have a bird's view of the situation and can release updates via news through our channel to provide assurance which can go a long way in bringing the stability to the system.
 
 ## Demo video
 
@@ -142,7 +140,11 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Manoj Jahgirdar** - *[]*
+* **Manjula Hosurmath** - *[]*
+* **Rahul Reddy Ravipally** - *[]*
+* **Sharath Kumar R K** - *[]*
+* **Srikanth Manne** - *[]*
 
 See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
 
