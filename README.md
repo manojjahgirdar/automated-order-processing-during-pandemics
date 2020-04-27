@@ -37,7 +37,7 @@ We propose a way of eliminating panic by using control towers powered by governm
 
 ## Demo video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+![Watch the Video](https://youtu.be/JTtu6RpkAlU)
 
 ## The architecture
 
