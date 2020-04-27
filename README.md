@@ -52,10 +52,6 @@ We propose a way of eliminating panic by using control towers powered by governm
 
 [More detail is available here](DESCRIPTION.md)
 
-## Project roadmap
-
-![Roadmap](roadmap.jpg)
-
 ## Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -64,71 +60,84 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
+1. [Docker](https://docs.docker.com/get-docker/)
+2. [Python](https://www.python.org/downloads/)
+
+### Configure the Credentials
+
+- Copy and paste the Watson Assistant `apikey`, `url` and `assistant-id` in the `credentials.json`.
+
+<pre>
+{
+    "apikey": <b>"<YOUR-API-KEY>"</b>,
+    "url": <b>"<YOUR-URL>"</b>,
+    "assistant-id": <b>"<YOUR-ASSISTANT-ID>"</b>
+}
+</pre>
+
+- Copy and paste IBM Db2 Credentials in `credentials1.json`.
+
+### Run the application Locally
+
+- Finally run the application with docker.
+
 ```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
+docker build .
+docker run <IMAGE-NAME>
 ```
 
-### Installing
+### Deploy the Applocation to Cloud
 
-A step by step series of examples that tell you how to get a development env running
+* Make sure you have installed [IBM Cloud CLI](https://cloud.ibm.com/docs/cli?topic=cloud-cli-getting-started&locale=en-US) before you proceed.
 
-Say what the step will be, for example
-
+* Log in to your IBM Cloud account, and select an API endpoint.
 ```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
+$ ibmcloud login
 ```
 
-And repeat
-
+>NOTE: If you have a federated user ID, instead use the following command to log in with your single sign-on ID.
 ```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
+$ ibmcloud login --sso
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instnance
-
+* Target a Cloud Foundry org and space:
 ```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
+$ ibmcloud target --cf
 ```
 
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
+* Push your app to IBM Cloud.
 ```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
+$ ibmcloud cf push 
+```
+
+* You will see output on your terminal as shown, verify the state is _`running`_:
+
+```
+Invoking 'cf push'...
+
+Pushing from manifest to org manoj.jahgirdar@in.ibm.com / space dev as manoj.jahgirdar@in.ibm.com...
+
+...
+
+Waiting for app to start...
+
+...
+
+  state     since                  cpu     memory           disk           details
+#0   running   2019-09-17T06:22:59Z   19.5%   103.4M of 512M   343.4M of 1G
 ```
 
 ## Live demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+You can find a running system to test at [covid-19-help-desk.mybluemix.net](https://covid-19-help-desk-talkative-bandicoot.eu-gb.mybluemix.net/)
 
 ## Built with
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [IBM Watson Assistant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - Used to process the conversations for online order processing.
+* [IBM Db2 on Cloud](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The SQL Database used to store the processed orders.
+* [IBM Watson Knowledge Studio](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - Used to train the entity extraction from the text model to process orders form the text.
+* [IBM Watson Natural Language Understanding](http://www.dropwizard.io/1.0.2/docs/) - Used to deploy the model.
+* [Flask](https://maven.apache.org/) - The web framework used.
 
 ## Contributing
 
@@ -140,9 +149,9 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Manoj Jahgirdar** - *[]*
+* **Manoj Jahgirdar** - *[https://github.com/manojjahgirdar]*
 * **Manjula Hosurmath** - *[]*
-* **Rahul Reddy Ravipally** - *[]*
+* **Rahul Reddy Ravipally** - *[https://github.com/RahulReddyRavipally]*
 * **Sharath Kumar R K** - *[]*
 * **Srikanth Manne** - *[]*
 
