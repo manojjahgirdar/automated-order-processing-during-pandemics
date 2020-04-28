@@ -159,7 +159,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Manjula Hosurmath** - *[]()*
 * **Rahul Reddy Ravipally** - *[RahulReddyRavipally](https://github.com/RahulReddyRavipally)*
 * **Sharath Kumar RK** - *[RK-Sharath](https://github.com/RK-Sharath)*
-* **Srikanth Manne** - *[]()*
+* **Srikanth Manne** - *[srikanthIBM](https://github.com/srikanthIBM)*
 
 ## License
 
