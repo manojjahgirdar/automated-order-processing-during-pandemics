@@ -37,7 +37,7 @@ We propose a way of eliminating panic by using control towers powered by governm
 
 ## Demo video
 
-![Watch the Video](https://youtu.be/JTtu6RpkAlU)
+[![](https://img.youtube.com/vi/QXxt4iH8tNY/0.jpg)](https://youtu.be/QXxt4iH8tNY)
 
 ## The architecture
 
