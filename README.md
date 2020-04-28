@@ -158,10 +158,8 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 * **Manoj Jahgirdar** - *[manojjahgirdar](https://github.com/manojjahgirdar)*
 * **Manjula Hosurmath** - *[]()*
 * **Rahul Reddy Ravipally** - *[RahulReddyRavipally](https://github.com/RahulReddyRavipally)*
-* **Sharath Kumar R K** - *[]()*
+* **Sharath Kumar R K** - *[Sharath Kumar RK](https://https://github.com/RK-Sharath)*
 * **Srikanth Manne** - *[]()*
-
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
 
 ## License
 
