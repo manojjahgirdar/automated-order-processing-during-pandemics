@@ -65,6 +65,7 @@ What things you need to install the software and how to install them
 1. [Docker](https://docs.docker.com/get-docker/)
 2. [Python](https://www.python.org/downloads/)
 
+<!---
 ### Configure the Credentials
 
 - Copy and paste the Watson Assistant `apikey`, `url` and `assistant-id` in the `credentials.json`.
@@ -78,15 +79,17 @@ What things you need to install the software and how to install them
 </pre>
 
 - Copy and paste IBM Db2 Credentials in `credentials1.json`.
+-->
 
 ### Run the application Locally
 
 - Finally run the application with docker.
 
 ```bash
-docker build .
-docker run <IMAGE-NAME>
+$ docker pull manojjahgirdar/covid-19-helpdesk-with-watson-assistant
+$ docker run -p 8080:8080 manojjahgirdar/covid-19-helpdesk-with-watson-assistant
 ```
+- The App will now run on: http://localhost:8080
 
 ### Deploy the Applocation to Cloud
 
