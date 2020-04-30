@@ -27,10 +27,6 @@ This GitHub Repo consists of Team Technocogent Submission for Call for Code 2020
 
 How do we stop panic amongst people of hoarding essentials during lockdown? How do we maintain social distancing while procuring essentials?
 
-### How can technology help?
-
-Schools and teachers can continue to engage with their students through virtual classrooms, and even create interactive spaces for classes. As parents face a new situation where they may need to homeschool their children, finding appropriate online resources is important as well.
-
 ### The idea
 
 We propose a way of eliminating panic by using control towers powered by government entities which can cater to online and offline mode of taking orders from the residents of different locations. This method will help the government to take control of the situation, maintain adequate supply & price as per the demand. Government can have a hawkeye view of the situation and can release updates via news through our channel to provide assurance which can go a long way in bringing the stability to the system.
