@@ -52,7 +52,7 @@ We propose a way of eliminating panic by using control towers powered by governm
 
 ## Long description
 
-Click [here] for detailed description (DESCRIPTION.md)
+Click [here](DESCRIPTION.md) for detailed description 
 
 ## Getting started
 
