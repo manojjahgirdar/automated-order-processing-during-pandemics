@@ -4,33 +4,25 @@
 
 In this section, we walk you through a working example of extracting the entities by quiering Watson Natural Language Service. With the help of a custom machine learning model built using Watson Knowledge studio, the data will have additional enrichments that will provide detailed insights for further order processing.
 
+
+### Entities
+
+Find people, places, events, and other types of entities mentioned in your content.
+
 The entitiies that we want to extract are :
 
 * **Entities**: ADDRESS, ORDER_ITEMS, CUSTOMER_NAME, CUSTOMER_PHONE.
 
-This web app contains multiple UI components that you can use as a starting point for developing your own Watson Discovery and Knowledge Studio service applications. 
+With Watson Knowledge Studio, a machine learning annotator can be trained to recognize mentions of custom entity and relation types which can then be incorporated into the Watson Natural Language Service process.
+Deploying a machine learning model to IBM Watson Natural Language Understanding When you are satisfied with the performance of the model, you can deploy a version of it to IBM Watson Natural Language Understanding. This feature enables your applications to use the deployed machine learning model to analyze semantic features of text input, including entities and relations. 
 
-The main benefit of using the Watson Discovery Service is its powerful analytics engine that provides cognitive enrichments and insights into your data. This app provides examples of how to showcase these enrichments through the use of filters, lists and graphs. The key enrichments that we will focus on are:
-
-* **Entities**: people, companies, organizations, cities, and more.
-* **Categories**: classification of the data into a hierarchy of categories up to 5 levels deep.
-* **Concepts**: identified general concepts that aren't necessarily referenced in the data.
-* **Keywords**: important topics typically used to index or search the data.
-* **Entity Types**: the classification of the discovered entities, such as person, location, or job title.
-* **Sentiment**: the overall positive or negative sentiment of each document.
-
-With Watson Knowledge Studio, a machine learning annotator can be trained to recognize mentions of custom entity and relation types which can then be incorporated into the Discovery application enrichment process.
-
-> For this code pattern, we will be using data that contains food reviews from Amazon, see the [Kaggle dataset](https://www.kaggle.com/snap/amazon-fine-food-reviews) for further information.
-
+> This code pattern uses a generated text that we recieved from the converted conversation between the User and Automatic call responder(Bot).
 When the reader has completed this code pattern, they will understand how to:
 
-* Use Watson Knowledge Studio to create a custom annotator.
-* Deploy a Watson Knowledge Studio model to Watson Discovery.
-* Load and enrich data in the Watson Discovery Service.
-* Query and manipulate data in the Watson Discovery Service.
-* Create UI components to represent enriched data created by the Watson Discovery Service.
-* Build a complete web app that utilizes popular JavaScript technologies to feature Watson Discovery Service data and enrichments.
+* Use effectively use Watson Knowledge Studio custom model to identify metadata from unstructured text.
+* Define entity types, import documents, annotate documents, create, train and evaluate machine learning models.
+* Deploy a Watson Knowledge Studio model to Watson Natural Language Understanding.
+* Query NLU for identifying metadata from given text file.
 
 ![architecture](doc/source/images/architecture.png)
 
