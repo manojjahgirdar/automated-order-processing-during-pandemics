@@ -43,18 +43,6 @@ When the reader has completed this code pattern, they will understand how to:
 * [Watson Discovery](https://www.ibm.com/watson/services/discovery/): A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights.
 * [Watson Knowledge Studio](https://www.ibm.com/watson/services/knowledge-studio/): Teach Watson the language of your domain with custom models that identify entities and relationships unique to your industry, in unstructured text. Use the models in Watson Discovery, Watson Natural Language Understanding, and Watson Explorer.
 
-## Featured technologies
-
-* [Node.js](https://nodejs.org/): An open-source JavaScript run-time environment for executing server-side JavaScript code.
-* [React](https://reactjs.org/): A JavaScript library for building User Interfaces.
-* [Express](https://expressjs.com): A popular and minimalistic web framework for creating an API and Web server.
-* [Semantic UI React](https://react.semantic-ui.com/introduction): React integration of Semantic UI components. 
-* [Chart.js](https://www.chartjs.org/): JavaScript charting package.
-* [Jest](https://jestjs.io/): A JavaScript test framework.
-
-# Watch the Video
-
-SampleVideoLink[!![video](htttps://img.youtube.com/vi/gzlUSyLccSg/0.jpg)](htttps://youtu.be/gzlUSyLccSg--)
 
 # Steps
 
@@ -64,7 +52,7 @@ SampleVideoLink[!![video](htttps://img.youtube.com/vi/gzlUSyLccSg/0.jpg)](htttps
 1. [Upload Type System](#4-upload-type-system)
 1. [Import Corpus Documents](#5-import-corpus-documents)
 1. [Create the model](#6-create-the-model)
-1. [Deploy the machine learning model to Watson Discovery](#7-deploy-the-machine-learning-model-to-watson-discovery)
+1. [Deploy the machine learning model to Watson Natural Language Understanding](#7-deploy-the-machine-learning-model-to-watson-natural-language-understanding)
 1. [Create Discovery Collection](#8-create-discovery-collection)
 1. [Deploy the application](#9-deploy-the-application)
 
@@ -135,9 +123,9 @@ Once complete, you will see the results of the train and evaluate process:
 
 ![wks_training_complete](doc/source/images/training-complete.png)
 
-## 7. Deploy the machine learning model to Watson Discovery
+## 7. Deploy the machine learning model to Watson Natural Language Understanding
 
-Now we can deploy our new model to the already created **Watson Discovery** service. Navigate to the **Versions** menu on the left and press **Create Version**.
+Now we can deploy our new model to the already created **Watson Natural Language Understanding** service. Navigate to the **Versions** menu on the left and press **Create Version**.
 
 ![wks_snapshot_page](doc/source/images/snapshot-page.png)
 
@@ -149,7 +137,7 @@ To start the process, click the **Deploy** button associated with your version.
 
 ![wks_deployment_options](doc/source/images/deployment-options.png)
 
-Select the option to deploy to **Discovery**.
+Select the option to deploy to **Natural Language Understanding**.
 
 ![wks_deployment_location](doc/source/images/deployment-location.png)
 
