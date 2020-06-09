@@ -93,6 +93,21 @@ Press the **Upload** button. This will upload a set of Entity Types and Relation
 
 ![wks_entity_types](docs/img/entity-types.png)
 
+#### iii. Import Corpus Documents
+
+Corpus documents are required to train our machine-learning annotator component. For this code pattern, the corpus documents will contain sample order processing converstation documents.
+
+* From the **Assets** -> **Documents** panel, press the **Upload Document Sets** button to import a Document Set file. 
+
+![import_corpus](docs/img/Upload_Corpus_Button.png)
+
+
+* Use the corpus documents file [docs/training_Files.zip](docs/training_Files.zip) found in the local repository.
+
+Once uploaded, you should see a set of documents:
+
+![wks_document_set](docs/img/Upload_Training_Files.png)
+
 
 
 
