@@ -60,6 +60,25 @@ Clone the `repo-name` repo locally. In a terminal, run:
 $ git clone https://github.com/IBM/order_processing_during_pandemics
 ```
 
+### 4. Setup Watson knowledge studio
+
+Create the following services:
+
+* [**Watson Discovery**](https://cloud.ibm.com/catalog/services/discovery)
+* [**Watson Knowledge Studio**](https://cloud.ibm.com/catalog/services/knowledge-studio)
+
+#### i. Launch Watson Knowledge Studio and create workspace
+
+Launch the **Watson Knowledge Studio** tool.
+![Launch_WKS](doc/source/img/Launch_WKS.png)
+
+click on **Create entities and relations workspace**.
+
+![create_wks_workspace](doc/source/images/create-wks-workspace.png)
+
+Enter a unique name and press **Create**.
+
+
 ### 7. Add the Credentials to the Application
 
 - Open the `credentials1.json` file from the root directory and paste the Db2 Credentials and save the file.
