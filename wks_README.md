@@ -69,14 +69,14 @@ Create the following services:
 
 #### i. Launch Watson Knowledge Studio and create workspace
 
-Launch the **Watson Knowledge Studio** tool.
+* Launch the **Watson Knowledge Studio** tool.
 ![Launch_WKS](docs/img/Launch_WKS.png)
 
-click on **Create entities and relations workspace**.
+* click on **Create workspace**.
 
 ![create_wks_workspace](docs/img/CreateWorkSpace1.png)
 
-Enter a unique name and press **Create**.
+* Enter a unique name and press **Create**.
 
 ![create_wks_workspace](docs/img/CreateWorkSpace.png)
 
