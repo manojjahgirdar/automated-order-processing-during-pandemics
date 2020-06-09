@@ -115,13 +115,13 @@ Since the corpus documents that were uploaded were already pre-annotated and inc
 
 * Go to the **Machine Learning Model** -> **Performance** panel, and press the **Train and Evaluate** button.
 
-![wks_training_sets](docs/img/Trand_and_Evaluate1.png)
+![wks_training_sets](docs/img/Train_and_Evaluate1.png)
 
 * Click on Edit Settings to ensure you are selecting the corpus document set which we have uploaded in previous step.
 
 ![wks_training_sets](docs/img/Trand_and_Evaluate_Settings.png)
 
-From the **Document Set** name list, select the annotation sets **Import**. Also, make sure that the option **Run on existing training, test and blind sets** is checked.  Press the **Train & Evaluate** button.
+* From the **Document Set** name list, select the annotation sets **Import**. Also, make sure that the option **Run on existing training, test and blind sets** is checked.  Press the **Train & Evaluate** button.
 
 ![wks_training_sets](docs/img/DocumnetSetSelect.png)
 
@@ -129,10 +129,36 @@ This process may take few minutes to complete. Progress will be shown in the upp
 
 You can view the log files of the process by clicking the **View Log** button.
 
-Once complete, you will see the results of the train and evaluate process:
+Once complete, you will see the results of the train and evaluate process as successful.
 
-![wks_training_complete](doc/source/images/training-complete.png)
 
+#### v. Deploy the machine learning model to Natural Language Understanding
+
+* Now we can deploy our new model to the already created **Natural Language Understanding** service. Navigate to the **Versions** menu on the left and press **Create Version**.
+
+![Create_Version_page](docs/img/Create_Version.png)
+
+* Give a description on the version that you want to deploy.
+
+![wks_snapshot_page](docs/img/snapshot-page.png)
+
+The new version will now be available for deployment to Natural Language Understanding. To start the process, click the **Deploy** button associated with your version.
+
+![wks_model_version](docs/img/Deploy.png)
+
+Select the option to deploy to **Natural Language Understanding**.
+
+![wks_deployment_location](docs/img/Deploy_NLU.png)
+
+Enter your IBM Cloud account information to locate your **Natural Language Understanding** service to deploy to.
+
+![wks_deployment_location](docs/img/Deploy_NLU1.png)
+
+Once deployed, a **Model ID** will be created. Keep note of this value as it will be required later when configuring your credentials.
+
+![wks_deployment_model](docs/img/Model_id.png)
+
+> NOTE: You can also view this **Model ID** by clicking the **Deployed Models** link under the model version.
 
 
 ### 7. Add the Credentials to the Application
