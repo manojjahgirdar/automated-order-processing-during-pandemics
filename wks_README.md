@@ -4,6 +4,18 @@
 
 In this section, we walk you through a working example of extracting the entities by quiering Watson Natural Language Service. With the help of a custom machine learning model built using Watson Knowledge studio, the data will have additional enrichments that will provide detailed insights for further order processing.
 
+### Included Components
+
+* [Watson Knowledge Studio](https://www.ibm.com/watson/services/knowledge-studio/): Teach Watson the language of your domain with custom models that identify entities and relationships unique to your industry, in unstructured text. Use the models in Watson Discovery, Watson Natural Language Understanding, and Watson Explorer.
+
+* [Natural Language Understanding](https://www.ibm.com/cloud/watson-natural-language-understanding): Analyze text to extract metadata from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles using natural language understanding.
+
+
+## 3. Create a Watson Knowledge Studio workspace
+
+Launch the **Watson Knowledge Studio** tool and click on **Create entities and relations workspace**.
+
+![create_wks_workspace](doc/source/images/create-wks-workspace.png)
 
 ### Entities
 
