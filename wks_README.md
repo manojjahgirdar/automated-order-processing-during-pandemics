@@ -11,11 +11,29 @@ In this section, we walk you through a working example of extracting the entitie
 * [Natural Language Understanding](https://www.ibm.com/cloud/watson-natural-language-understanding): Analyze text to extract metadata from content such as concepts, entities, keywords, categories, sentiment, emotion, relations, and semantic roles using natural language understanding.
 
 
-## 3. Create a Watson Knowledge Studio workspace
+## 1. Create entities using Knowledge Studio workspace
 
-Launch the **Watson Knowledge Studio** tool and click on **Create entities and relations workspace**.
+Launch the **Watson Knowledge Studio** tool and click on **Create entities workspace**.
 
 ![create_wks_workspace](doc/source/images/create-wks-workspace.png)
+
+Give a unique name and press **Create**.
+
+
+https://cloud.ibm.com/docs/knowledge-studio/typesystem.html#wks_typesystem
+
+## 2. Upload the type System
+A type system are the entitiy labels that allows user to define that are specific to review documents, such as Customer Name, Order details and Place names, etc.. The type system controls how content can be annotated by defining the types of entities that can be labeled and how relationships among different entities can be labeled.
+
+To upload our pre-defined type system, from the **Assets** -> **Entity Types** panel, press the **Upload** button to import the Type System file [data/types-2aa46ad0-31da-11e8-89a9-efc0f3b77492.json](data/types-2aa46ad0-31da-11e8-89a9-efc0f3b77492.json) found in the local repository.
+
+![upload_type_system](doc/source/images/upload-type-system.png)
+
+Press the **Upload** button. This will upload a set of Entity Types and Relation Types:
+
+![wks_entity_types](doc/source/images/entity-types.png)
+
+![wks_relation_types](doc/source/images/relation-types.png)
 
 ### Entities
 
