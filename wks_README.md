@@ -109,6 +109,30 @@ Once uploaded, you should see a set of documents:
 ![wks_document_set](docs/img/Upload_Training_Files.png)
 
 
+#### iv. Create Custom Model
+
+Since the corpus documents that were uploaded were already pre-annotated and included ground truth, it is possible to build the machine learning annotator directly without the need for performing human annotations.
+
+* Go to the **Machine Learning Model** -> **Performance** panel, and press the **Train and Evaluate** button.
+
+![wks_training_sets](docs/img/Trand_and_Evaluate1.png)
+
+* Click on Edit Settings to ensure you are selecting the corpus document set which we have uploaded in previous step.
+
+![wks_training_sets](docs/img/Trand_and_Evaluate_Settings.png)
+
+From the **Document Set** name list, select the annotation sets **Import**. Also, make sure that the option **Run on existing training, test and blind sets** is checked.  Press the **Train & Evaluate** button.
+
+![wks_training_sets](docs/img/DocumnetSetSelect.png)
+
+This process may take few minutes to complete. Progress will be shown in the upper right corner of the panel.
+
+You can view the log files of the process by clicking the **View Log** button.
+
+Once complete, you will see the results of the train and evaluate process:
+
+![wks_training_complete](doc/source/images/training-complete.png)
+
 
 
 ### 7. Add the Credentials to the Application
