@@ -74,9 +74,12 @@ Launch the **Watson Knowledge Studio** tool.
 
 click on **Create entities and relations workspace**.
 
-![create_wks_workspace](doc/source/images/create-wks-workspace.png)
+![create_wks_workspace](docs/img/CreateWorkSpace1.png)
 
 Enter a unique name and press **Create**.
+
+![create_wks_workspace](docs/img/CreateWorkSpace.png)
+
 
 
 ### 7. Add the Credentials to the Application
