@@ -64,7 +64,7 @@ $ git clone https://github.com/IBM/order_processing_during_pandemics
 
 Create the following services:
 
-* [**Watson Discovery**](https://cloud.ibm.com/catalog/services/discovery)
+* [**Natural Language Understanding**](https://cloud.ibm.com/catalog/services/natural-language-understanding)
 * [**Watson Knowledge Studio**](https://cloud.ibm.com/catalog/services/knowledge-studio)
 
 #### i. Launch Watson Knowledge Studio and create workspace
@@ -159,6 +159,16 @@ Once deployed, a **Model ID** will be created. Keep note of this value as it wil
 ![wks_deployment_model](docs/img/Model_id.png)
 
 > NOTE: You can also view this **Model ID** by clicking the **Deployed Models** link under the model version.
+
+#### vi. Get the credentials of NLU service.
+
+* Go to IBM Cloud dashboard resource list to note down the NLU credentilas. Click on https://cloud.ibm.com/resources
+
+![nlu_credentials1](docs/img/Launch_nlu1.png)
+
+* On the left navigation bar, click on Manage and copy API key and the url to a notepad which will be used in the next section  for UI integration.
+
+![nlu_show_credentials1](docs/img/Show_Credentials.png)
 
 
 ### 7. Add the Credentials to the Application
