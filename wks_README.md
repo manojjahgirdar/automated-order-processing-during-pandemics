@@ -85,7 +85,7 @@ Create the following services:
 A type system allows us to define things that 
 are specific to review documents, such as product and brand names. The type system controls how content can be annotated by defining the types of entities that can be labeled and how relationships among different entities can be labeled.
 
-To upload our pre-defined type system, from the **Assets** -> **Entity Types** panel, press the **Upload** button to import the Type System file [data/types-2aa46ad0-31da-11e8-89a9-efc0f3b77492.json](data/types-2aa46ad0-31da-11e8-89a9-efc0f3b77492.json) found in the local repository.
+To upload our pre-defined type system, from the **Assets** -> **Entity Types** panel, press the **Upload** button to import the Type System file [docs/TypeSystems.json](docs/TypeSystems.json) found in the local repository.
 
 ![upload_type_system](docs/img/upload-type-system.png)
 
