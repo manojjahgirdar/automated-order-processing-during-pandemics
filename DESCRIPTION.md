@@ -32,6 +32,18 @@ Advantage :
 
 Online Approach will be extremely helpful for the Urban population. Online mode can take requests through text or manually selecting through the cart. 
 
+## Automated dashboard for tracking Covid-19 predictions & recommendations
+
+- Provide an UI powered by Artificial Intelligence to review real-time updates.
+
+- Python flask app will be used as integrated UI to develop the solution which includes Watson Studio.
+
+- Watson Studio can run the AI models on historical data and churn out insights, predictions and recommendations to be displayed on the UI.
+
+Advantage :
+
+This approach will display the cause and effect relationship between the attributes which are influencing the spread of pandemic. We can use the predictions and recommendations for improving social distancing measures across different locations.
+
 ## Conclusion
 
 In the above methods, the backend system is automated and equipped to handle the volume of queries efficiently. The above methods (offline & online) highlight the assurance of two important things. One is the stability of the system/control tower to manage the volume of orders in an automated way eliminating human interference and second is the delivery of supplies from the government entities thereby governing the social distancing measures, demand & supply management & empowering the citizens to avail the supplies at their doorstep.
